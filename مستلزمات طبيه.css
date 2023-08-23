@@ -1,0 +1,93 @@
+﻿body {
+    direction: rtl;
+    background-color: rgb(131, 126, 126);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+nav .img_logo {
+    margin-left: 20px;
+}
+
+nav .logo {
+    margin-left: 40px;
+    color: white;
+    font-size: 32px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 6px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: #e80202;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+}
+
+.content .text {
+    color: #fff;
+    width: 40%;
+}
+
+.content .text h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.container-fluid .img_logo {
+    border-radius: 40px;
+    height: 50px;
+    width: 50px;
+}
+
+
+.hh {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+.h-card img {
+    height: 350px;
+}
+
+.card p {
+    min-height: 48px;
+}
+
+@media(min-width:450px) and (max-width:1150px) {
+    .container .offer img {
+        width: 330px;
+    }
+}
